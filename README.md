@@ -16,6 +16,8 @@ Up to the user query, Google Custom Search API used to implement below assets to
  * Scientific name
  * Lifespan
 
+App is live and working in this [link.](https://ozkanabdullahoglu.github.io/animal-trading-card-generator/)
+
 ## Upcoming Updates
 
 * This app will be redesigned with React.Js
