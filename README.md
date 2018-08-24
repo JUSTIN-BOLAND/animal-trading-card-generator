@@ -23,12 +23,13 @@ App is live and working in this [link.](https://ozkanabdullahoglu.github.io/anim
 * This app will be redesigned with React.Js
 * Accessibility issues will be reconsidered
 * Responsivity in all devices
+* Error handling will be considered
 
 ## Built with
 
 * [Bootstrap](https://getbootstrap.com/docs/3.3/)
 * [jQurey](https://jquery.com/)
-* [Google Custom Search](https://developers.google.com/custom-search/)
+* [Google Custom Search](https://developers.google.com/custom-search/json-api/v1/overview)
 
 ## Authors
 
