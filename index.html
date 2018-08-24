@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Animal Trading Cards</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="thumbnail">
+            <h1 class="heading"> Animal Card Generator</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <input class="form-control" type="string" id="query" placeholder="Your favourite animal" value="" data-toggle="popover" data-trigger="focus" title="Tip" data-content="Type your favorite animal name and submit for the result!" data-placement="left">
+              </div>
+              <div class="col-xs-6">
+                <button class="btn btn lg btn-primary" id="submit" onclick="myFunc()">Submit</button>
+                <a tabindex="0" class="btn btn lg btn-danger " role="button" id="reload" data-toggle="popover" data-trigger="hover" title="Tip" data-content="Reload the page to generate another card." onclick="reLoad()" data-placement="right"> Reset</a>
+              </div>
+            </div>
+            <h2 class="heading">Pick Background Colors</h2>
+            <div class="row">
+              <div class="col-xs-4">
+                <input class="picker" type="color" id="colorPicker" value="#bfb6bb" data-toggle="popover" data-trigger="hover" title="Tip" data-content="Pick a background color for the card" data-placement="left">
+              </div>
+              <div class="col-xs-8">
+                <input class="picker" type="color" id="colorPickerCard" value="#f1ebef" data-toggle="popover" data-trigger="hover" title="Tip" data-content="Pick a background color for the information field" data-placement="right">
+              </div>
+            </div>
+            <div class="card" id="shiftColor" style='background-color: #bfb6bb'>
+              <h3 class="text-center heading" id="title"></h3>
+              <img id="image" class="img img-responsive" src="" alt="">
+              <div class="description" id="shiftCardColor" style='background-color: #f1ebef'>
+                <p id="factsString"></p>
+                <ul class="list">
+                  <li id="scientificNameString"> </li>
+                  <li id="lifespanString"></li>
+                </ul>
+                <p></p>
+                <p id="informationString"></p>
+              </div>
+            </div>
+          </div>
+  </body>
+  </html>
