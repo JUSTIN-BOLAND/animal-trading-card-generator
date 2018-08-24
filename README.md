@@ -8,8 +8,9 @@
 
 ## Instructions
 
-This is a card generator app specifically for animals. This app idea is inspired from [animal trading card project](https://github.com/OzkanAbdullahoglu/animal-trading-card) in nanodegree program ,[Udacity](https://www.udacity.com/)
+This is a card generator app specifically for animals. This app idea is inspired from [animal trading card project](https://github.com/OzkanAbdullahoglu/animal-trading-card) in nanodegree program ,[Udacity](https://www.udacity.com/).
 Up to the user query, Google Custom Search API used to implement below assets to the DOM ;
+
  * Basic information
  * Interesting facts
  * Scientific name
