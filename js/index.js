@@ -69,7 +69,7 @@ function information(response) {
 
   let snippetOut = []
   let pagemapOut = []
-  console.log(response)
+
   for (let i = 0; i < response.items.length; i++) {
     let item = response.items[i]
     let snippet = item.snippet
